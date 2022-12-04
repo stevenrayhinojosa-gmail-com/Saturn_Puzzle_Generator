@@ -1,0 +1,63 @@
+#I put images that go side by side
+from PIL import Image
+image1 = "C://Users/steve/Downloads/Validation Test-20220415T052724Z/Validation Test/saturn/h8gNkhysOkitV9F6.jpg"
+image2 = "C://Users/steve/Downloads/Validation Test-20220415T052724Z/Validation Test/saturn/zqYyLxdvUy6icnPh.jpg"
+img1 = Image.open(image1)
+img2 = Image.open(image2)
+image_new = Image.new('RGB', (img1.width+img2.width, img1.height))
+image_new.paste(img2,(0,0))
+image_new.paste(img1, (img1.width,0))
+image_new
+
+from PIL import Image
+image2 = "C://Users/steve/Downloads/Validation Test-20220415T052724Z/Validation Test/saturn/gnRBI3kwwAMTR587.jpg"
+image1 = "C://Users/steve/Downloads/Validation Test-20220415T052724Z/Validation Test/saturn/sc3vwRFEIrjf0L65.jpg"
+img1 = Image.open(image1)
+img2 = Image.open(image2)
+image_new = Image.new('RGB', (img1.width+img2.width, img1.height))
+image_new.paste(img2,(0,0))
+image_new.paste(img1, (img1.width,0))
+image_new
+
+
+from PIL import Image
+image2 = "C://Users/steve/Downloads/Validation Test-20220415T052724Z/Validation Test/saturn/ZRwIMeXzmUg1Msn0.jpg"
+image1 = "C://Users/steve/Downloads/Validation Test-20220415T052724Z/Validation Test/saturn/zqYyLxdvUy6icnPh.jpg"
+img1 = Image.open(image1)
+img2 = Image.open(image2)
+image_new = Image.new('RGB', (img1.width+img2.width, img1.height))
+image_new.paste(img2,(0,0))
+image_new.paste(img1, (img1.width,0))
+image_new
+
+
+from PIL import Image
+image1 = "C://Users/steve/Downloads/Validation Test-20220415T052724Z/Validation Test/saturn/r2Z5aTQlC4qHjhCt.jpg"
+image2 = "C://Users/steve/Downloads/Validation Test-20220415T052724Z/Validation Test/saturn/h8gNkhysOkitV9F6.jpg"
+img1 = Image.open(image1)
+img2 = Image.open(image2)
+image_new = Image.new('RGB', (img1.width+img2.width, img1.height))
+image_new.paste(img2,(0,0))
+image_new.paste(img1, (img1.width,0))
+image_new
+
+
+from PIL import Image
+image2 = "C://Users/steve/Downloads/Validation Test-20220415T052724Z/Validation Test/saturn/r2Z5aTQlC4qHjhCt.jpg"
+image1 = "C://Users/steve/Downloads/Validation Test-20220415T052724Z/Validation Test/saturn/APKZbhzn3Pn6lZJb.jpg"
+img1 = Image.open(image1)
+img2 = Image.open(image2)
+image_new = Image.new('RGB', (img1.width+img2.width, img1.height))
+image_new.paste(img2,(0,0))
+image_new.paste(img1, (img1.width,0))
+image_new
+
+from PIL import Image
+image2 = "C://Users/steve/Downloads/Validation Test-20220415T052724Z/Validation Test/saturn/sVHrhx5LuPLt13bL.jpg"
+image1 = "C://Users/steve/Downloads/Validation Test-20220415T052724Z/Validation Test/saturn/gnRBI3kwwAMTR587.jpg"
+img1 = Image.open(image1)
+img2 = Image.open(image2)
+image_new = Image.new('RGB', (img1.width+img2.width, img1.height))
+image_new.paste(img2,(0,0))
+image_new.paste(img1, (img1.width,0))
+image_new
